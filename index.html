@@ -1,1 +1,53 @@
-tets
+<html lang="en">
+ <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>
+     Under Construction
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
+    <style>
+     body {
+            font-family: 'Inter', sans-serif;
+            background-color: black;
+            color: white; /* Menjadikan teks default berwarna putih */
+        }
+        @keyframes spin-slow {
+                                0% {
+                                                transform: rotateY(0deg);
+                                }
+                                100% {
+                                                transform: rotateY(360deg);
+                                }
+                }
+                .animate-spin-slow {
+                                animation: spin-slow 3s linear infinite;
+                }
+    </style>
+ </head>
+ <body class="bg-black flex flex-col items-center justify-center min-h-screen p-6">
+<div class="relative mb-8" style="perspective: 1000px;"></div>
+        <img alt="SEO DRT" class="max-w-full h-auto animate-spin-slow" height="250" src="https://file.ahs.my.id/-bUGwc6wTWx/asdasd.png" width="400" style="transform-style: preserve-3d;"/>
+</div>
+
+    <h1 class="text-4xl font-semibold text-white mb-3">
+     Under Construction
+    </h1>
+    <p class="text-center text-gray-300 italic mb-6 max-w-xl px-4" style="font-style: italic;">
+     <span class="font-normal">
+        Our website is under construction
+     </span>
+     , we are working very hard to give you the best experience with this one.
+    </p>
+    <h2 class="text-xl font-normal text-white mb-4"></h2>
+     Notify Me When It's Ready
+    </h2>
+    <form class="flex w-full max-w-lg px-4">
+     <input class="flex-grow bg-gray-200 placeholder-gray-400 font-semibold text-sm uppercase px-4 py-3 focus:outline-none" placeholder="EMAIL" required="" type="email"/>
+     <button class="bg-yellow-400 text-black font-semibold uppercase text-sm px-6 py-3 ml-2 hover:bg-yellow-500 transition-colors" type="submit">
+        Notify Me
+     </button>
+    </form>
+ </body>
+</html>
